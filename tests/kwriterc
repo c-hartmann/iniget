@@ -1,0 +1,14 @@
+[General]
+Allow Tab Scrolling=true
+Auto Hide Tabs=true
+
+[KTextEditor View]
+   Allow Mark Menu  = true
+Auto Brackets=false
+
+[MainWindow]
+1920x1200 screen: Height=720
+1920x1200 screen: Width=1152
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

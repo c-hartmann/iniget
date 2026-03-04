@@ -1,0 +1,11 @@
+Naming the things
+
+
+[Section]
+Key=Value
+
+
+
+Wenn iniset von stdin lesen kann/soll, sollte stdout auch dahin gehen.
+aber eben gegebenfalls verändert.  Oder nur den geänderten Wert? Option? --all?
+Oder --key-only, wenn es man andersrum denkt.

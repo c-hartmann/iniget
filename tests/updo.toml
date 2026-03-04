@@ -1,0 +1,18 @@
+[global]
+refresh_interval = 5
+timeout = 10
+webhook_url = "https://hooks.slack.com/services/YOUR/WEBHOOK"
+only = ["Google", "API"]  # Monitor only these targets
+
+[[targets]]
+url = "https://www.google.com"
+name = "Google"
+refresh_interval = 3
+assert_text = "Google"
+
+[[targets]]
+url = "https://api.example.com/health"
+name = "API"
+method = "POST"
+headers = ["Authorization: Bearer token"]
+
